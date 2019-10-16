@@ -1,0 +1,65 @@
+/* body {
+  background-image: url(../assets/citipix_skyline.jpg);
+  transition: background-image 0.3s ease-in-out;
+} */
+
+.cover-screen {
+  height: 100vh;
+  width: 100vw;
+  transition: background-image 0.3s ease-in-out;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  padding: 3px;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+
+select {
+  padding: 5px 40px;
+}
+
+.smooth-corners {
+  border-radius: 0.2rem;
+}
+
+.default-bg {
+  background-image: url("../assets/citipix_skyline.jpg");
+}
+
+.austin-bg {
+  background-image: url("../assets/austin.jpg");
+}
+
+.la-bg {
+  background-image: url("../assets/la.jpg");
+}
+
+.nyc-bg {
+  background-image: url("../assets/nyc.jpg");
+}
+
+.sf-bg {
+  background-image: url("../assets/sf.jpg");
+}
+
+.sydney-bg {
+  background-image: url("../assets/sydney.jpg");
+}
